@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
+  <title>Respondent home prototype</title>
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/census-theme.css">
+</head>
+
+<body>
+<header class="header ">
+  <div class="header__top" role="banner">
+    <div class=" container">
+      <div class="header__grid-top grid grid--gutterless grid--flex grid--between grid--vertical-center grid--no-wrap">
+        <div class="grid__col col-auto">
+          <div class="logo">
+            <!-- <a href="/">
+              <img src="img/census-landscape-logo.svg" alt="Census 2021 logo" class="logo__img header__logo print__hidden">
+            </a> -->
+          </div>
+        </div>
+        <div class="header__language grid__col col-auto">
+          <ul class="language-links u-d-no@xs@s">
+            <li class="language-links__item">
+              <a href="#" lang="cy">Cymraeg</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__main">
+    <div class="container">
+      <div class="grid grid--gutterless grid--flex grid--between grid--vertical-center grid--no-wrap">
+        <div class="grid__col col-auto u-flex-shrink">
+          <h1 class="header__title">Take part in the 2021 Census Rehearsal</h1>
+        </div>
+        <div class="grid__col col-auto u-flex-no-shrink">
+          <!-- <button type="submit" class="btn btn--ghost u-d-no@xs@s">Save and complete later</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="grid">
+    <div class="grid__col col-8@m">
+      <main>
+        <form action="confirm-address.html">
+        <h2 class="u-fs-l">Enter your unique code</h2>
+        <div class="panel panel--simple panel--info">
+          <div class="panel__body">
+            <div class="field">
+              <label class="label" for="line-1" id="label-address-line-1">
+                <div class="label__inner u-fs-r-b">Your 16 character unique code is on the letter we sent you</div>
+              </label>
+                <div class="grid">
+                  <div class="grid__col col-3@m">
+                    <input id="line-1" class="input input--text input--block u-mb-s" data-qa="input-text" value=""/>
+                  </div>
+                  <div class="grid__col col-3@m">
+                    <input class="input input--text input--block u-mb-s" data-qa="input-text" value=""/>
+                  </div>
+                  <div class="grid__col col-3@m">
+                    <input class="input input--text input--block u-mb-s" data-qa="input-text" value=""/>
+                  </div>
+                  <div class="grid__col col-3@m">
+                    <input class="input input--text input--block u-mb-s" data-qa="input-text" value=""/>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-fs-r u-mt-m lock">Your personal information is protected by law and will be kept confidential.</p>
+        <button class="btn btn-submit btn--primary btn--lg u-mb-xl u-mt-xs" data-qa="btn-submit" type="submit">Start now</button>
+        </form>
+        <div class="u-mb-l">
+          <h2 class="mb-s u-fs-m bold">Lost or don’t have a unique code?</h2>
+          <a href="have-you-started.html">Request a new unique code</a>
+        </div>
+        <div class="u-mb-xl">
+          <h2 class="mb-s u-fs-m bold">Other ways to take part</h2>
+          <p>You can <a href="#">request a paper questionnaire</a> online or by calling <strong>0800 123 4546</strong>.</p>
+        </div><br>
+      </main>
+    </div>
+    <div class="grid__col push-1@m col-3@m">
+      <div class="side_panel">
+        <p class="u-fs-m u-mt-s bold">Related content</p>
+        <a href="#" class="links">About the Census</a><br>
+        <a href="#" class="links">What we ask you</a><br>
+        <a href="#" class="links">Help and support</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer " role="contentinfo">
+  <div class="container">
+    <div class="grid">
+      <div class="grid__col u-mb-m">
+        <img src="img/ons-logo-black-en.svg" alt="Office for National Statistics" class="footer__poweredby-img">
+      </div>
+      <div class="grid__col">
+        <ul class="list list--bare list--inline@s">
+          <li class="list__item ">
+            <a href="#">
+              Contact us
+            </a>
+          </li>
+          <li class="list__item ">
+            <a href="#">
+              Cookies and privacy
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="grid__col">
+        <div class="footer__license footer__license--border">
+          <img alt="OGL" alt="OGL" class="footer__ogl-img" src="img/UKOpenGovernmentLicence-grey.svg">All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" class="footer__link">Open Government Licence v3.0</a>, except where otherwise stated
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="module" src="/scripts/bundle.js"></script>
+<script type="module" src="/scripts/patternlib.js"></script>
+<script nomodule src="/scripts/bundle.es5.js"></script>
+<script nomodule src="/scripts/patternlib.es5.js"></script>
+<script>
+  document.documentElement.className = document.documentElement.className.replace('no-js', 'has-js')
+</script>
+</body>
+</html>

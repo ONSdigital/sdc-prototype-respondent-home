@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.header__main {
+  background: #6e2585;
+  /* background: #93328e; */
+}
+
+.logo__img {
+  width: 154px;
+  height: auto;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header__grid-top {
+  height: auto;
+  padding: 0.4rem 0;
+}
+
+.lock {
+  padding-left: 1.5rem;
+  background: url(../img/lockicon.svg) no-repeat left top;
+}
+
+.u-fs-r-b, .u-fs-m-b, .u-fs-xl, .u-fs-s-b, .bold {
+  font-weight: 700;
+}
+
+.mb-s {
+  margin-bottom: 0.5rem;
+}
+
+.side_panel {
+  border-top: solid 8px #6e2585;
+  line-height: 1.8;
+}
+
+.radio__description {
+  padding-left: 1.85rem;
+}
+
+.summary__question {
+  min-width: 10rem;
+}
